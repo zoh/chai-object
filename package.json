@@ -1,0 +1,37 @@
+{
+    "name": "chai-object",
+    "version": "0.0.1",
+    "description": "Object include assertions for the Chai assertion library",
+    "main": "./lib/chai-object.js",
+    "dependencies": {
+        "chai": "~1.6.0"
+    },
+    "devDependencies": {
+        "chai": "~1.6.0",
+        "coffee-script": "~1.6.2",
+        "mocha": "~1.9.0"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script"
+    },
+    "keywords": [
+        "test",
+        "assert",
+        "testing",
+        "chai",
+        "object"
+    ],
+    "author": {
+        "name": "zoh.",
+        "email": "zoh@bk.ru"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md"
+}
